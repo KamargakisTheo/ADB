@@ -1,0 +1,112 @@
+body{
+    background: url(../IMG/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    margin: 5rem;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#badge1 {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#badge2 {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#mao {
+    width: 20%;
+}
+
+#sara {
+    width: 26%;
+}
+
+#paimon {
+    width: 2%;
+}
+
+#logodi {
+    width: 20%;
+    
+}
+
+#chick {
+    width: 53%;
+}
+
+footer {
+    background-color: rgba(12, 12, 12, 0.85);
+    color: white;
+    position: relative;
+    bottom: auto;
+    width:100%;
+    height:50px;
+    text-align: center;
+}
+
+.carousel-item {
+    border: 5px solid rgba(12, 12, 12, 0.80);
+    border-radius: 3px;
+    width: 50%;
+    
+}
+
+.carousel{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width:980px) {
+    
+    body {
+        background: url(../IMG/backgroundg.png);
+        background-size: auto;
+        background-position: center;
+        margin: auto;
+    }
+    
+    main {
+        margin: 2rem;
+        flex: none;
+    }
+    
+    .foo{
+    
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height:50px;
+        
+    }
+    
+    #logodi {
+        width: 100%;
+        
+    }
+    
+    #paimon {
+        width: 0%;
+    }
+
+    .vid {
+        width: 100%;
+    }
+
+    .med{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel{
+        margin-top: 20em;
+        width: 105%;
+    }
+}

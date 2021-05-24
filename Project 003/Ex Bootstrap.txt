@@ -1,0 +1,28 @@
+BOOTSTRAP
+
+
+
+Vous venez d'ouvrir une nouvelle franchise de magasins (le produit que vous voulez, avec un minimum de 2 magasins)
+Réalisez un site en 5 page:
+
+
+
+- Accueil
+- Contact
+- Produits
+- photos
+- Nous trouver
+
+
+
+
+Acceuil:
+la page d'accueil présente votre entreprise:
+- elle contient obligatoirement deux badges présentant brièvement votre concept
+- un emplacement pour les news
+- une vidéo intégrée dans votre site (youtube par exemple)
+
+
+
+Contact: contient un fomulaire de contact qui comprendra au minimum
+- nom, prenom, mail, input:select, input:checkbox, textarea
